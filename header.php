@@ -1,6 +1,6 @@
 <?php
  
- $menuArray= array ('Home', 'Notes', 'Report' , 'Submit') ;
+ $menuArray= array ('Home', 'About') ;
  ?>
  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -19,7 +19,7 @@ include('script.php');
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="http://www.ncbt.ac.nz">NCBT College</a>
+      <a class="navbar-brand" href="http://carpoolnz.azurewebsites.net">Carpool New Zealand</a>
     </div>
     <ul class="nav navbar-nav">
     <?php
@@ -32,7 +32,8 @@ include('script.php');
       
     </ul>
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="logout.php"><span class="glyphicon glyphicon-log-in"></span> LogOut</a></li>
+    <li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Log In </a> </li>
+      <li><a href="logout.php"><span class="glyphicon glyphicon-log-out"></span> LogOut</a></li>
     </ul>
   </div>
 </nav>
